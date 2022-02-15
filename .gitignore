@@ -1,0 +1,11 @@
+src/
+vendor/
+node_modules/
+classes/Email.php
+gulpfile.js
+package-lock.json
+package.json
+.DS_Store
+.env
+composer.json
+composer.lock
