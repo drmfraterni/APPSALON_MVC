@@ -13,11 +13,10 @@ class AdminController {
     public static function index ( Router $router)
     {
         session_start();
-        
+        isAuth();        
         $datos = [
             'nombre'  =>  $_SESSION['nombre'],
         ];
-
         $router->render('admin/index', $datos);
         
 

@@ -10,6 +10,7 @@ class CitaController {
     {
         //session_start();
         
+        isAuth();
 
         /** Datos a las vista */
         $datos = [
